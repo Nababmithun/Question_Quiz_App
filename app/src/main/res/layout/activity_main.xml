@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.androidlime.question_quiz_app.MainActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/questionTxt"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:text="What is the Question?"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+
+
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="OPTION 1"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#FF14E1A7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="OPTION 2"
+                android:background="#FF14E1A7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+
+
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="OPTION 3"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#FF14E1A7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="OPTION 4"
+                android:background="#FF14E1A7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="00:00"
+                android:textSize="37dp"
+                android:textAlignment="center"
+                android:id="@+id/timeTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
